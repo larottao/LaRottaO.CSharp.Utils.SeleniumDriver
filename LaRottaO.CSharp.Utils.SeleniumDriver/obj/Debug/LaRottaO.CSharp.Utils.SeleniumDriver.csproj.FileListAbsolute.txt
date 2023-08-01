@@ -1,0 +1,9 @@
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\bin\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\bin\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.pdb
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\bin\Debug\WebDriver.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\bin\Debug\WebDriver.Support.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\obj\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.csproj.AssemblyReference.cache
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\obj\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.csproj.CoreCompileInputs.cache
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\obj\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.csproj.CopyComplete
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\obj\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.SeleniumDriver\LaRottaO.CSharp.Utils.SeleniumDriver\obj\Debug\LaRottaO.CSharp.Utils.SeleniumDriver.pdb
