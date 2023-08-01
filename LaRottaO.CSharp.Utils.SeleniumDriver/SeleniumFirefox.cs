@@ -37,7 +37,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
 
             /*
             //FirefoxProfile profile = allProfiles.GetProfile("default");
-            //profile = webdriver.FirefoxProfile();            //
+            //profile = webdriver.FirefoxProfile();
             profile.SetPreference("browser.cache.disk.enable", false);
             profile.SetPreference("browser.cache.memory.enable", false);
             profile.SetPreference("network.http.use-cache", false);
@@ -296,7 +296,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             }
         }
 
-        public static bool limpiarElementoInput(By elementType, WebDriver driver, Boolean mustBeVisible = false, Boolean mustBeEnabled = false, int maxRetries = 5, int msBetweenTries = 1000)
+        public static bool clearInputText(By elementType, WebDriver driver, Boolean mustBeVisible = false, Boolean mustBeEnabled = false, int maxRetries = 5, int msBetweenTries = 1000)
         {
             try
             {
@@ -313,7 +313,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             }
         }
 
-        public static Boolean maximizar(WebDriver driver)
+        public static Boolean maximizeBrowserWindow(WebDriver driver)
         {
             try
             {
@@ -365,7 +365,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             return elemento.Item2.GetAttribute("outerHTML");
         }
 
-        public static string obtenerCodigoFuenteDeFrame(string idFrame, WebDriver driver)
+        public static string getFrameSource(string idFrame, WebDriver driver)
         {
             try
             {
@@ -380,7 +380,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             }
         }
 
-        public static string obtenerCodigoFuenteDePagina(WebDriver driver)
+        public static string getPageSource(WebDriver driver)
         {
             try
             {
@@ -392,7 +392,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             }
         }
 
-        public static string obtenerTextoDeElemento(By elementType, WebDriver driver, Boolean mustBeVisible = false, Boolean mustBeEnabled = false, int maxRetries = 5, int msBetweenTries = 1000)
+        public static string getElementText(By elementType, WebDriver driver, Boolean mustBeVisible = false, Boolean mustBeEnabled = false, int maxRetries = 5, int msBetweenTries = 1000)
         {
             try
             {
@@ -410,7 +410,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             }
         }
 
-        public static bool seleccionarDropdownPorTexto(By elementType, WebDriver driver, String textoEnDropDown, Boolean mustBeVisible = false, Boolean mustBeEnabled = false, int maxRetries = 5, int msBetweenTries = 1000)
+        public static bool selectDropDownByText(By elementType, WebDriver driver, String textoEnDropDown, Boolean mustBeVisible = false, Boolean mustBeEnabled = false, int maxRetries = 5, int msBetweenTries = 1000)
         {
             try
             {
@@ -459,7 +459,7 @@ namespace LaRottaO.CSharp.Utils.SeleniumDriver
             }
             catch
             {
-                Console.WriteLine("Imposible to visit URL: " + url);
+                Console.WriteLine("Impossible to visit URL: " + url);
                 return false;
             }
         }
